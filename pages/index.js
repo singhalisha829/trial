@@ -33,6 +33,7 @@ export default function Home() {
   if (isLoading) return "Loading...";
   return (
    <main className="p-2">
+    <h3>Test Run!!</h3> <br/>
     Name:{displayData?.name}<br/>
     Details:{displayData?.detail}<br/><br />
     <button className="bg-buttongrey rounded-sm" onClick={()=>Router.push('/nextPage')}>Go To Next Page</button><br /><br />
